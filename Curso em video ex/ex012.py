@@ -1,0 +1,6 @@
+p=float(input("Valor do produto R$"))
+d=float(input("Qual a procentagem do desconto ?"))
+v=((d/100)*p)
+vp=(p-v)
+print ('O valor do produto com {:.2f}% de desconto é de R${:.2f} reais'.format(d,v))
+print('Ovalor do produto fica R$ {:.2f} reais!'.format(vp))

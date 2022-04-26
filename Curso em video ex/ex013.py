@@ -1,0 +1,5 @@
+p=float(input("Valor do salario R$"))
+d=float(input("Qual a procentagem do almento ?"))
+v=((d/100)*p)
+vp=(p+v)
+print ('O valor do salario com almento é de R${:.2f} reais'.format(vp))
